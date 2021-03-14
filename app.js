@@ -1,5 +1,7 @@
+import { AppInit } from './app/app';
+
 // app.js
-App({
+AppInit({
   onLaunch() {
     // 展示本地存储能力
     const logs = wx.getStorageSync('logs') || []
